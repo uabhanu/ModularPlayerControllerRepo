@@ -28,11 +28,10 @@ This feature directly integrates with the **Singleton/FSM architecture** establi
 | **Architecture** | Interface Pattern, Component Composition | Ensures modularity and separation of concerns (SRP). |
 
 ## 💾 Key Scripts
-| **Player (Core Player Components)**
-    - PlayerController.cs (Physics logic: Rigidbody, FixedUpdate)
-    - PlayerInputHandler.cs (Input reading: Subscribes to New Input System)
-  **Interfaces (Decoupling Contracts)**
-    - IInputReceiver.cs (The decoupling contract)
+| Category | Detail | Purpose |
+| :--- | :--- | :--- |
+| **Player(Core Player Components)** | PlayerController.cs (Physics logic: Rigidbody, FixedUpdate) | PlayerInputHandler.cs (Input reading: Subscribes to New Input System) |
+| **Interfaces (Decoupling Contracts)** | IInputReceiver.cs (The decoupling contract) |
 
 ## 🗓️ Roadmap
 | Status | Task | Feature Branch |
