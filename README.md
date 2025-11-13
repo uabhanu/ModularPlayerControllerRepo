@@ -27,9 +27,7 @@ This feature directly integrates with the **Singleton/FSM architecture** establi
 | **Input** | Unity New Input System | Used for decoupled input mapping. |
 | **Architecture** | Interface Pattern, Component Composition | Ensures modularity and separation of concerns (SRP). |
 
-## 📁 Project Structure (Key Scripts)
-
-## 💾 Scripts
+## 💾 Key Scripts
 | **Player (Core Player Components)**
     - PlayerController.cs (Physics logic: Rigidbody, FixedUpdate)
     - PlayerInputHandler.cs (Input reading: Subscribes to New Input System)
