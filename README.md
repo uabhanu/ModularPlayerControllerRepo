@@ -31,25 +31,26 @@ This feature directly integrates with the **Singleton/FSM architecture** establi
 
 Assets/
     ├── Scripts/
+    │   ├── Managers/
+    │   │   ├── GameStateManager.cs (Singleton & State Controller)
+    │   ├── States/
+    │   │   ├── AbstractGameState.cs (Base Class)
+    │   │   ├── MenuState.cs
+    │   │   ├── GameplayState.cs
+    |   |   ├── GameOverState.cs
+    │   ├── Utilities/
+    |   |   ├── GameEvents.cs (Future: Handles Observer Pattern)
+    ├── Scenes/
+        ├── MainScene.unity (Minimal setup scene)
+
+Assets/
+    ├── Scripts/
     │   ├── Player/
     │   │   ├── PlayerController.cs (Physics logic: Rigidbody, FixedUpdate)
     |   |   ├── PlayerInputHandler.cs (Input reading: Subscribes to New Input System)
     │   ├── Interfaces/
     │   │   ├── IInputReceiver.cs (The decoupling contract)
 
-    Assets/
-├── Scripts/
-│   ├── Managers/
-│   │   ├── GameStateManager.cs (Singleton & State Controller)
-│   ├── States/
-│   │   ├── AbstractGameState.cs (Base Class)
-│   │   ├── MenuState.cs
-│   │   ├── GameplayState.cs
-|   |   ├── GameOverState.cs
-│   ├── Utilities/
-|   |   ├── GameEvents.cs (Future: Handles Observer Pattern)
-├── Scenes/
-    ├── MainScene.unity (Minimal setup scene)
 
 
 ## 🗓️ Roadmap
