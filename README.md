@@ -29,15 +29,12 @@ This feature directly integrates with the **Singleton/FSM architecture** establi
 
 ## 📁 Project Structure (Key Scripts)
 
-Scripts/
-
-Player/ (Core Player Components)
-- PlayerController.cs (Physics logic: Rigidbody, FixedUpdate)
-- PlayerInputHandler.cs (Input reading: Subscribes to New Input System)
-
-Interfaces/ (Decoupling Contracts)
-- IInputReceiver.cs (The decoupling contract)
-
+## 💾 Scripts
+| **Player (Core Player Components)**
+    - PlayerController.cs (Physics logic: Rigidbody, FixedUpdate)
+    - PlayerInputHandler.cs (Input reading: Subscribes to New Input System)
+  **Interfaces (Decoupling Contracts)**
+    - IInputReceiver.cs (The decoupling contract)
 
 ## 🗓️ Roadmap
 | Status | Task | Feature Branch |
