@@ -30,7 +30,7 @@ This feature directly integrates with the **Singleton/FSM architecture** establi
 ## 💾 Key Scripts
 | Category | File Name | Purpose |
 | :--- | :--- | :--- |
-| **Interfaces (Decoupling Contracts)** | IInputReceiver.cs | Defines the C# Interface/Contract that decouples input reading from movement logic.
+| **Interfaces (Decoupling)** | IInputReceiver.cs | Defines the C# Interface/Contract that decouples input reading from movement logic.
 | **Player(Input)** | PlayerInputHandler.cs | Reads the Unity New Input System callbacks and sends decoupled signals to the Controller. |
 | **Player(Logic)** | PlayerController.cs (Physics logic: Rigidbody, FixedUpdate) | Contains the physics logic, calculates movement/jump forces using a Rigidbody in FixedUpdate(). |
 
