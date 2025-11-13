@@ -29,28 +29,14 @@ This feature directly integrates with the **Singleton/FSM architecture** establi
 
 ## 📁 Project Structure (Key Scripts)
 
-Assets/
-    ├── Scripts/
-    │   ├── Managers/
-    │   │   ├── GameStateManager.cs (Singleton & State Controller)
-    │   ├── States/
-    │   │   ├── AbstractGameState.cs (Base Class)
-    │   │   ├── MenuState.cs
-    │   │   ├── GameplayState.cs
-    |   |   ├── GameOverState.cs
-    │   ├── Utilities/
-    |   |   ├── GameEvents.cs (Future: Handles Observer Pattern)
-    ├── Scenes/
-        ├── MainScene.unity (Minimal setup scene)
+Scripts/
 
-Assets/
-    ├── Scripts/
-    │   ├── Player/
-    │   │   ├── PlayerController.cs (Physics logic: Rigidbody, FixedUpdate)
-    |   |   ├── PlayerInputHandler.cs (Input reading: Subscribes to New Input System)
-    │   ├── Interfaces/
-    │   │   ├── IInputReceiver.cs (The decoupling contract)
+Player/ (Core Player Components)
+- PlayerController.cs (Physics logic: Rigidbody, FixedUpdate)
+- PlayerInputHandler.cs (Input reading: Subscribes to New Input System)
 
+Interfaces/ (Decoupling Contracts)
+- IInputReceiver.cs (The decoupling contract)
 
 
 ## 🗓️ Roadmap
